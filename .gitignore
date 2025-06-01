@@ -1,0 +1,22 @@
+# Bỏ các file không cần đẩy lên GitHub
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Thư viện cài bằng pip
+venv/
+env/
+.venv/
+
+# Mô hình AI
+model/*.pt
+*.pt
+
+# Repo YOLOv5 clone
+yolov5/
+
+# Hệ thống và IDE
+.DS_Store
+.vscode/
+.idea/
